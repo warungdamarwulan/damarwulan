@@ -376,4 +376,12 @@ footer .credit {
   #hamburger-menu {
     position: absolute;
   }
+
+  .navbar .navbar-logo {
+    padding-left: 1px;
+  }
+
+  .navbar .navbar-extra {
+    padding-right: 20px;
+  }
 }
