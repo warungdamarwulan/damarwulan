@@ -12,10 +12,9 @@
   text-decoration: none;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
-
 
 body {
   font-family: "Poppins", sans-serif;
@@ -129,11 +128,13 @@ body {
 
 /* About Section */
 .about,
-.menu, .contact {
+.menu,
+.contact {
   padding: 7rem 7% 1.4rem;
 }
 .about h2,
-.menu h2, .contact h2 {
+.menu h2,
+.contact h2 {
   text-align: center;
   font-size: 2.6rem;
   margin-bottom: 3rem;
@@ -167,10 +168,12 @@ body {
 }
 
 /* MENU SECTION */
-.menu h2, .contact h2 {
+.menu h2,
+.contact h2 {
   margin-bottom: 1rem;
 }
-.menu p, .contact p {
+.menu p,
+.contact p {
   text-align: center;
   max-width: 30rem;
   margin: auto;
@@ -200,7 +203,6 @@ body {
   margin-top: 1rem auto 0.5rem;
 }
 
-
 /* Contact Section*/
 .contact .row {
   display: flex;
@@ -213,12 +215,11 @@ body {
   width: 100%;
   object-fit: cover;
 }
- 
+
 .contact .row form {
   flex: 1 1 45rem;
   padding: 5rem 2rem;
   text-align: center;
-
 }
 
 .contact .row form .input-group {
@@ -229,13 +230,12 @@ body {
   border: 1px solid #eee;
   padding-left: 2rem;
 }
- .contact .row form .input-group input {
-width: 100%;
-padding: 2rem;
-font-size: 1.7rem;
-background: none;
-color: #fff;
-
+.contact .row form .input-group input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  background: none;
+  color: #fff;
 }
 
 .contact .row form .btn {
@@ -252,9 +252,8 @@ color: #fff;
 footer {
   background-color: var(--primary);
   text-align: center;
-  padding: 1rem 0rem 3rem ;
+  padding: 1rem 0rem 3rem;
   margin-top: 3rem;
-
 }
 footer .socials {
   padding: 1rem 0;
@@ -263,33 +262,29 @@ footer .socials {
 footer .socials a {
   color: #fff;
   margin: 1rem;
-
 }
 
-footer .socials a :hover, footer .links a:hover{
+footer .socials a :hover,
+footer .links a:hover {
   color: var(--bg);
 }
-
 
 footer .links {
   margin-bottom: 1.4rem;
 }
 
-footer .links a{
+footer .links a {
   color: #fff;
   padding: 0.7rem 1rem;
-
 }
 
 footer .credit {
   font-size: 0.8rem;
-
 }
 
 footer .credit {
   color: var(--bg);
   font-weight: 700;
-
 }
 
 /* MEDIA QUERIES */
@@ -357,24 +352,28 @@ footer .credit {
   }
   .menu p {
     font-size: 1.2rem;
-}
+  }
 
-.contact .row {
-  flex-wrap: wrap;
-}
+  .contact .row {
+    flex-wrap: wrap;
+  }
 
-.contact .row .map {
-  height: 30rem;
-}
+  .contact .row .map {
+    height: 30rem;
+  }
 
-.contact .row form {
-  padding-top: 0;
+  .contact .row form {
+    padding-top: 0;
+  }
 }
-
 
 /* PHONE */
 @media (max-width: 450px) {
   html {
     font-size: 55%;
+  }
+
+  #hamburger-menu {
+    position: absolute;
   }
 }
