@@ -368,20 +368,22 @@ footer .credit {
 }
 
 /* PHONE */
-@media (max-width: 450px) {
+@media (max-width: 320px) {
   html {
     font-size: 55%;
   }
-
-  #hamburger-menu {
-    position: absolute;
-  }
-
   .navbar .navbar-logo {
-    padding-left: 1px;
+    padding-bottom: 3rem;
   }
 
+  .navbar .navbar-logo span {
+    position: absolute;
+    top: 4.5rem;
+    left: 2rem;
+  }
   .navbar .navbar-extra {
-    padding-right: 20px;
+    position: absolute;
+    top: 3rem;
+    right: 3rem;
   }
 }
