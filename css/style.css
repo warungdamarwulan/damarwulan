@@ -94,7 +94,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
 }
 
 .hero .content {
@@ -183,7 +182,7 @@ body {
 .menu .row {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 1rem;
+  margin-top: 8rem;
   justify-content: center;
 }
 
