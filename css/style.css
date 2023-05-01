@@ -84,6 +84,43 @@ body {
   display: none;
 }
 
+/* Navbar Search Form */
+
+.navbar .search-form {
+  position: absolute;
+  top: 100%;
+  right: 7%;
+  background-color: #fff;
+  width: 50rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  transform: scaleY(0);
+  transform-origin: top;
+}
+
+.navbar .search-form.active {
+  transform: scaleY(1);
+  transition: 0.2s;
+}
+
+.navbar .search-form input {
+  height: 100%;
+  width: 100%;
+  font-size: 1.6rem;
+  color: var(--primary);
+  padding: 1rem;
+}
+
+.search-form label {
+  cursor: pointer;
+  font-size: 2rem;
+  color: var(--bg);
+  margin-right: 1.5rem;
+}
+
+/* Navbar Search Form End */
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
